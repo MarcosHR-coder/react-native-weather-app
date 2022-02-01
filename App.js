@@ -10,8 +10,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Previtions" options={{title: 'Previsiones'}} component={PrevitionsScreen} />
         <Tab.Screen name="Cities" options={{title: 'Ciudades'}} component={CitiesScreen} />
+        <Tab.Screen name="Previtions" options={{title: 'Previsiones'}} component={PrevitionsScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );
